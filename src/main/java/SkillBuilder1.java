@@ -17,7 +17,6 @@ public class SkillBuilder1 {
         float spiceValue = (float)((4.0/3)*Math.pow(2, Math.sqrt(5)/Math.pow(spice, 3)));
         System.out.println("Well " + userName + ", the spice value resulted in " + spiceValue);
         System.out.println("And the converted value is " + ((int)(spiceValue*100)/100.0));
-        calcWallPaint();
     }
 
     public static void calcWallPaint() {
